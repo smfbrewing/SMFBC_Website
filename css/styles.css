@@ -1,0 +1,181 @@
+body
+{	
+	background-color: #FFFFFF;
+	//background-image: url('../images/barley.jpg');
+	//background-size: 100% 100;
+}
+
+#heading_banner_image
+{
+	height: 100%;
+	width: auto;
+}
+
+#background_image
+{
+	position: absolute;
+	width: auto;
+	height: 70%;
+	max-width: 400px;
+	max-height: 400px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+#instagram_image
+{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+	height: 50px;
+	width: 50px;
+}
+
+#gmail_image
+{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 125px;
+    right: 0;
+    bottom: 0;
+	height: 50px;
+	width: 50px;
+}
+
+#facebook_image
+{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 125px;
+    bottom: 0;
+	height: 50px;
+	width: 50px;
+}
+
+#heading_bar
+{
+	position:fixed;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+
+#social_media_bar
+{
+	background-color: #FFFFFF;
+	position:absolute;
+	width: 100%;
+	height: 75px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 100%;
+}
+
+#our-beers
+{
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 260px;
+    bottom: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+#divider1
+{
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 130px;
+    bottom: 0;
+	font-size: 30px;
+	line-height: 70px;
+}
+
+#about-us
+{
+	margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+#divider2
+{
+	margin: auto;
+    top: 0;
+    left: 130px;
+    right: 0;
+    bottom: 0;
+	font-size: 30px;
+	line-height: 70px;
+}
+
+#merch
+{
+	margin: auto;
+    top: 0;
+    left: 240px;
+    right: 0;
+    bottom: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.nonselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
+
+.title-page-bars
+{
+	display: block;
+	background-color: #000000;
+	position: absolute;
+	width: 100%;
+}
+
+.menu_buttons
+{
+	height: 0%;
+	width:  0%;
+	color: white;
+	text-align: center;
+	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 40px;
+	text-shadow: 2px 2px #000000;
+	background-color:white;
+	position: absolute;
+	visibility: hidden;
+	
+	border-width:2px;
+	border-style:solid;
+	border-color: black;
+}
+
+.heading-bar-titles
+{
+	display: inline-block;
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
