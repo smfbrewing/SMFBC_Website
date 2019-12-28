@@ -15,7 +15,7 @@ body
 {
 	position: absolute;
 	width: auto;
-	height: 70%;
+	height: 100%;
 	max-width: 400px;
 	max-height: 400px;
 	margin: auto;
@@ -78,7 +78,6 @@ body
 	height: 75px;
 	bottom: 0px;
 	left: 0px;
-	opacity: 100%;
 }
 
 #our-beers
@@ -136,6 +135,16 @@ body
 	line-height: 70px;
 }
 
+#content-pane
+{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	bottom: 75px;
+	height: auto;
+	width: 100%;
+}
+
 .nonselectable {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
@@ -173,9 +182,10 @@ body
 .heading-bar-titles
 {
 	display: inline-block;
+	width: fit-content;
+	width: -moz-fit-content;
 	position: absolute;
 	color: white;
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	
 }
