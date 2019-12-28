@@ -189,3 +189,9 @@ body
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+.heading-bar-menus:hover
+{
+	cursor:pointer;
+	text-shadow: 2px 1px #0000FF;
+}

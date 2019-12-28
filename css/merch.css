@@ -1,0 +1,18 @@
+body
+{
+	background-color: white;
+}
+
+#coming-soon
+{
+	position: absolute;
+	width: auto;
+	height: 70%;
+	max-width: 470px;
+	max-height: 470px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
