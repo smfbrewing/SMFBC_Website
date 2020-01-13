@@ -6,13 +6,51 @@ body
 #coming-soon
 {
 	position: absolute;
-	width: auto;
-	height: 70%;
 	max-width: 470px;
-	max-height: 470px;
+	max-height: 300px;
 	margin: auto;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+.our-beers-images
+{
+	width: auto;
+	height: auto;
+	max-height: 200px;
+	position: relative;
+	float:left;
+	padding-left:  8%;
+	padding-right: 20px;
+	padding-top:   20px;
+	padding-bottom: 20px;
+}
+
+.our-beers-beer
+{
+	overflow: auto;
+}
+
+h2
+{
+	padding-top: 20px;
+}
+
+P
+{
+	padding-right: 8%;
+}
+
+.beer-divider
+{
+	width: 92%;
+}
+
+.nonselectable {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	cursor: default;
 }
